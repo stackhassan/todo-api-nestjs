@@ -26,9 +26,6 @@ coverage/
 .prettier-cache
 .eslintcache
 
-# npm package-lock or yarn.lock (if you're using npm)
-package-lock.json
-
 # Optional npm audit and other temporary files
 npm-debug.log*
 yarn-debug.log*
