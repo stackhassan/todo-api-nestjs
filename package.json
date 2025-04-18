@@ -1,0 +1,31 @@
+{
+  "name": "todo-api-nestjs",
+  "version": "1.0.0",
+  "description": "todo api in nest js",
+  "main": "main.ts",
+  "scripts": {
+    "start": "nest start",
+    "start:prod": "NODE_ENV=production nest start",
+    "build": "nest build",
+    "lint": "eslint . --ext .ts",
+    "prettier": "prettier --write ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/swagger": "^11.1.4",
+    "@nestjs/typeorm": "^11.0.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "dotenv": "^16.5.0",
+    "pg": "^8.14.1",
+    "swagger-ui-express": "^5.0.1",
+    "typeorm": "^0.3.22"
+  },
+  "devDependencies": {
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2",
+    "eslint-plugin-prettier": "^5.2.6",
+    "prettier": "^3.5.3"
+  }
+}
